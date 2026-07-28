@@ -1,0 +1,9 @@
+{
+  "id": "stem-custom-headings",
+  "name": "自制标题引用",
+  "version": "0.2.0",
+  "minAppVersion": "1.5.7",
+  "description": "让 > **标题** 成为可搜索、可跳转、可悬停预览与可嵌入的引用目标。",
+  "author": "Meta",
+  "isDesktopOnly": false
+}

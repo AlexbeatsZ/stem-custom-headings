@@ -1,0 +1,19 @@
+{
+  "name": "stem-custom-headings",
+  "version": "0.2.0",
+  "description": "Obsidian semantic references for custom blockquote headings.",
+  "type": "module",
+  "scripts": {
+    "build": "tsc --noEmit --skipLibCheck && node esbuild.config.mjs production",
+    "dev": "node esbuild.config.mjs",
+    "test": "node --import tsx --test tests/*.test.ts"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.15.17",
+    "esbuild": "0.25.5",
+    "obsidian": "latest",
+    "tsx": "^4.20.0",
+    "typescript": "^5.8.3"
+  }
+}
